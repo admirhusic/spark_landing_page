@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <title>Spark School</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="top-bar">
+                <div class="logo">
+                </div>
+                <button id="menuBtn" class="menu-button">
+                    <span class="menu-icon"></span>
+                </button>
+                <nav class="navigation">
+                    <ul id="navList" class="navigation-list menu-hidden">
+                        <li class="navigation-list-item">
+                            <a href="#home" class="list-item-link">Home</a>
+                        </li>
+                        <li class="navigation-list-item">
+                            <a href="#about" class="list-item-link">About Us</a>
+                        </li>
+                        <li class="navigation-list-item">
+                            <a href="#contact" class="list-item-link">Contact</a>
+                        </li>
+                        <li class="navigation-list-item">
+                            <a href="../tic_tac_toe/game.html" class="list-item-link">Our Game</a>
+                        </li>
+                </nav>
+
+                <div class="search">
+                    <input type="text" class="search-input" placeholder="Search">
+                    <span class="search-icon"></span>
+
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </header>
+    <main id="home">
+        <section class="hero">
+            <div class="container">
+                <div class="carousel">
+                    <a href="" class="carousel-controller-left" id="slideButtonLeft">
+                        <span class="controller-icon-left"></span>
+                    </a>
+                    <a href="" class="carousel-controller-right" id="slideButtonRight">
+                        <span class="controller-icon-right"></span>
+                    </a>
+                    <div class="carousel-item carousel-item-active">
+                        <h1 class="carousel-title">A beautiful vacation
+                            <br> photos awaits you</h1>
+                        <h3 class="carousel-subtitle">As soon as you finish Spark School</h3>
+                        <p class="carousel-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias earum labore iure nesciunt. Officia
+                            sunt maxime iure enim. Cumque sed assumenda consectetur voluptates eos, corrupti tempore voluptatem
+                            rem totam hic.</p>
+                        <button class="carousel-subscribe-btn">Apply now
+                            <span class="subscribe-icon"></span>
+                        </button>
+                    </div>
+                    <div class="carousel-item carousel-item-hidden">
+                        <h1 class="carousel-title">Do what you love
+                        </h1>
+                        <h3 class="carousel-subtitle">Practice makes perfect</h3>
+                        <p class="carousel-text">Alias earum labore iure nesciunt. Officia sunt maxime iure enim. Cumque sed assumenda consectetur
+                            voluptates eos, corrupti tempore voluptatem rem totam hic.</p>
+                    </div>
+                    <div class="carousel-item carousel-item-hidden">
+                        <h1 class="carousel-title">Try it out!
+                        </h1>
+                        <h3 class="carousel-subtitle">We love code</h3>
+                        <p class="carousel-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias earum labore iure nesciunt. Officia
+                            sunt maxime iure enim. Cumque sed assumenda consectetur voluptates eos, corrupti tempore voluptatem
+                            rem totam hic.</p>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="container">
+                <h3 class="about-title">Who attends Spark School?</h3>
+                <hr>
+            </div>
+            <div class="container">
+                <div class="about-items">
+                    <div class="about-item">
+                        <div class="about-item-image image1">
+                        </div>
+                        <h3 class="about-item-title">Lorem ipsum</h3>
+                        <p class="about-item-paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi corrupti quidem reiciendis autem
+                            officia eum cupiditate velit quam dolor maxime!</p>
+                        <a href="" class="item-link">Read more</a>
+                    </div>
+                    <div class="about-item">
+                        <div class="about-item-image image2">
+
+                        </div>
+                        <h3 class="about-item-title">Lorem ipsum</h3>
+                        <p class="about-item-paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi corrupti quidem reiciendis autem
+                            officia eum cupiditate velit quam dolor maxime!</p>
+                        <a href="" class="item-link">Read more</a>
+                    </div>
+                    <div class="about-item">
+                        <div class="about-item-image image3">
+
+                        </div>
+                        <h3 class="about-item-title">Lorem ipsum</h3>
+                        <p class="about-item-paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi corrupti quidem reiciendis autem
+                            officia eum cupiditate velit quam dolor maxime!</p>
+                        <a href="" class="item-link">Read more</a>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </section>
+        <section class="subscribe">
+            <div class="container">
+                    <div class="subscribe-title-box">
+                            <h3 class="subscribe-title">Seen enough? Seems it's about time to subscribe!</h3>
+                    </div>
+                <div class="subscribe-box">
+                    <div class="box-half">
+                        <p class="box-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, dolor reiciendis!</p>
+                    </div>
+                    <div class="box-half">
+                        <form action="">
+                            <label for="email" class="box-form-label">Your e-mail address</label>
+                            <div class="subscribe-input-wrap">
+                                <input type="text" class="subscribe-input">
+                                <button type="submit" class="subscribe-button">
+                                    <span class="subscribe-icon"></span>
+                                </button>
+
+                            </div>
+
+                        </form>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="contact-box" id="contact">
+                    <div class="contact-item">
+                        <h3 class="contact-title">Contact Us</h3>
+                        <p class="contact-text">You can find us at:</p>
+                        <p class="contact-text">Mostar, Bleiburških žrtava b.b</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3 class="contact-title">Write to Us</h3>
+                        <form action="">
+                            <input type="text" class="contact-input" placeholder="Your name">
+                            <input type="text" class="contact-input" placeholder="Email address">
+                            <textarea name="" id="" rows="5" class="contact-textarea">Your message</textarea>
+                            <button type="submit" class="contact-button">
+                                <span class="contact-button-text">Send</span>
+                                <span class="contact-icon"></span>
+                            </button>
+                        </form>
+                    </div>
+                    <div class="contact-item">
+                        <h3 class="contact-title">Like Our Game</h3>
+                        <p class="contact-text">If you like our game you can rate it now:</p>
+                        <div class="rating-stars">
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <textarea name="" id="" rows="3" class="contact-textarea"></textarea>
+                        <button type="submit" class="contact-button">
+                            <span class="contact-button-text">Done</span>
+                            <span class="contact-icon"></span>
+                        </button>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </section>
+        <section class="contact" >
+            <div id="map"></div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-half">
+                <p class="footer-copy">Copyright
+                    <a href="" class="footer-link">Spark School</a>
+                </p>
+            </div>
+            <div class="footer-half">
+                <a href="https://twitter.com/sparkmostar/" target="_Blank" class="social-link twitter"></a>
+                <a href="https://www.instagram.com/lifeatspark/" target="_Blank" class="social-link instagramm"></a>
+                <a href="https://www.facebook.com/spark.business.park/" target="_Blank" class="social-link facebook"></a>
+                <a href="https://plus.google.com/+SPARKbusinessparkMostar" target="_Blank" class="social-link google"></a>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/google-maps.js"></script>
+</body>
+
+</html>
