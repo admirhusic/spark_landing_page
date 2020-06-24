@@ -80,7 +80,7 @@ window.onload = function () {
 
 
     function scrollIt(e) {
-        var targetDiv = document.getElementById(e.target.hash.split('#')[1])
+        let targetDiv = document.getElementById(e.target.hash.split('#')[1])
         if (targetDiv) {
             e.preventDefault();
             window.scrollTo({
@@ -97,9 +97,9 @@ window.onload = function () {
 
     navLinks[0].classList.add('link-active');
     window.addEventListener('scroll', function (e) {
-        var home = this.document.getElementById('home');
-        var about = document.getElementById('about');
-        var contact = this.document.getElementById('contact');
+        let home = this.document.getElementById('home');
+        let about = document.getElementById('about');
+        let contact = this.document.getElementById('contact');
         if (window.pageYOffset <= home.offsetTop) {
             navLinks[0].classList.add('link-active')
         } else {
